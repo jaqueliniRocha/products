@@ -1,0 +1,16 @@
+{
+    "type": "mongodb",
+    "url": "mongodb://localhost:27017/users",
+    "useNewUrlParser": true,
+    "synchronize": true,
+    "logging": true,
+    "migrations": [
+        "./src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    },
+    "entities": [
+        "./src/models/*.ts"
+    ]
+}
