@@ -1,6 +1,10 @@
 # products
 
-Postman Collection
+Enquanto o `user-management` é responsável pela gestão de usuários com acesso ao sistema, o `products` realiza o cadastro de produtos no estoque, pode inserir, alterar, remover e consultar produtos.
+
+Para tal o usuário precisar passar um token JWT válido de um user cadastrado no sistema.
+
+### Postman Collection ###
 ```
 {
 	"info": {
